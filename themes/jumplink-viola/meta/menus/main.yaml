@@ -1,0 +1,127 @@
+name: main
+items:
+    -
+        title: About
+        nesting: '0'
+        type: static-page
+        url: ''
+        code: about
+        reference: home
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: about
+            isExternal: '0'
+    -
+        title: Service
+        nesting: '0'
+        type: static-page
+        url: ''
+        code: services
+        reference: home
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: services
+            isExternal: '0'
+    -
+        title: Offer
+        nesting: '0'
+        type: static-page
+        url: ''
+        code: offer
+        reference: home
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: offer
+            isExternal: '0'
+    -
+        title: Contact
+        nesting: '0'
+        type: static-page
+        url: ''
+        code: contact
+        reference: home
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: contact
+            isExternal: '0'
+    -
+        title: 'Quem Somos'
+        nesting: '1'
+        type: static-page
+        code: ''
+        reference: quem-somos
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'O Que Fazemos'
+        type: url
+        url: /
+        code: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Campanhas
+        nesting: '1'
+        type: static-page
+        code: ''
+        reference: index
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Prevencao
+        nesting: '1'
+        type: static-page
+        code: ''
+        reference: index
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Doencas e Sintomas'
+        nesting: '1'
+        type: static-page
+        code: ''
+        reference: index
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Eventos
+        nesting: '1'
+        type: static-page
+        code: ''
+        reference: index
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Blog
+        type: cms-page
+        code: ''
+        reference: work-progress
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'

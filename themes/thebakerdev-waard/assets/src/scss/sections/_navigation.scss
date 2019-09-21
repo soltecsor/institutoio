@@ -1,0 +1,78 @@
+/* NAVIGATION */
+
+.navbar {
+
+    background-color: $text-light;
+    padding: 1rem !important;
+    transition: all .3s ease-in-out;
+
+    a {
+        color: $text !important;
+    }
+}
+
+.navbar-brand {
+
+    font-family: $font-alt;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-toggler {
+
+    border: none;
+}
+
+.navbar-collapse {
+
+    margin-top: 0.625rem;
+}
+
+.nav-link {
+
+    font-weight: bold;
+    padding: 0.388rem 1.5rem !important;
+
+    &:hover {
+        
+        color: $primary-dark !important;
+        transition: all .3s ease-in-out !important;
+    }
+}
+
+.nav-link.active {
+    background-color: $primary-dark;
+    color: $text-light !important;
+}
+
+
+@include media-breakpoint-up(sm) {
+
+    .navbar-brand {
+        
+        font-size: 2rem;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+
+    .navbar {
+        padding: 2.500rem 0.938rem !important;
+    }
+
+    .nav-link {
+        border-radius: 19px;
+    }
+
+    .navbar-brand {
+        
+        font-size: 2.250rem;
+    }
+
+    .nav-link.active {
+        box-shadow: 4.6px 5.3px 9.4px 0.6px rgba(0, 0, 0, 0.14);
+
+    }
+}
+
+

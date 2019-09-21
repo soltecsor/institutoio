@@ -1,0 +1,19 @@
+1569075750a:1:{s:12:"facility.htm";a:5:{s:8:"fileName";s:12:"facility.htm";s:7:"content";s:656:"<section id="facility" class="section facility">
+    <div class="container-fluid facility-container">
+        <div class="facility-container__content" data-aos="fade" >
+            <h2 class="section__title section__title--light mb-5">{{ this.theme.facility_heading }}</h2>
+            <p>{{ this.theme.facility_description }}</p>
+            <button class="button button--elevate button--primary mt-5 mb-4">Vivus magna</button>
+        </div>
+        <div class="facility-contaner__img" style="background-image:url('{{ this.theme.facility_image ? this.theme.facility_image|media : 'assets/dist/images/facility.jpg'|theme }}')"></div>
+    </div>
+</section>";s:5:"mtime";i:1569071393;s:6:"markup";s:656:"<section id="facility" class="section facility">
+    <div class="container-fluid facility-container">
+        <div class="facility-container__content" data-aos="fade" >
+            <h2 class="section__title section__title--light mb-5">{{ this.theme.facility_heading }}</h2>
+            <p>{{ this.theme.facility_description }}</p>
+            <button class="button button--elevate button--primary mt-5 mb-4">Vivus magna</button>
+        </div>
+        <div class="facility-contaner__img" style="background-image:url('{{ this.theme.facility_image ? this.theme.facility_image|media : 'assets/dist/images/facility.jpg'|theme }}')"></div>
+    </div>
+</section>";s:4:"code";N;}}

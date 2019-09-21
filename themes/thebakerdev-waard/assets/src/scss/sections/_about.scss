@@ -1,0 +1,51 @@
+/* ABOUT */
+
+.about {
+
+    @extend .text-center;
+}
+
+.about__description {
+
+    margin-bottom: 90px;
+}
+
+.about__item {
+
+    box-shadow: 11.2px 12.8px 27px 0 rgba(0, 0, 0, 0.06);
+    color: $secondary-dark;
+    font-size: 45px;
+    padding: 20px 0;
+    @extend .mb-4;
+
+    p {
+        
+        color: $text-dark;
+        font-size: 18px;
+        margin-top:12px;
+    }
+}
+
+@include media-breakpoint-up(sm) {
+
+    .about__item {
+
+        font-size: 60px; 
+
+        p {
+            font-size: 20px;
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+
+    .about__item {
+
+        font-size: 72px; 
+
+        p {
+            font-size: 24px;
+        }
+    }
+}

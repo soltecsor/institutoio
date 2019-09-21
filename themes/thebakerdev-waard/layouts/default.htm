@@ -1,0 +1,35 @@
+description = "Default layout"
+==
+<!doctype html>
+<html lang="en">
+  <head>
+    {% partial 'meta' %}
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div class="wrapper">
+        {% partial 'header' %}
+        <main class="content">
+            {% if(this.theme.section_about) %}
+                {% partial 'about' %}
+            {% endif %}
+
+            {% if(this.theme.section_team) %}
+                {% partial 'team' %}
+            {% endif %}
+
+            {% if(this.theme.section_facility) %}
+                {% partial 'facility' %}
+            {% endif %}
+
+            {% if(this.theme.section_services) %}
+                {% partial 'services' %}
+            {% endif %}
+            
+        </main>
+        {% partial 'footer' %}
+    </div>
+    {% partial 'modal' %}
+
+    {% partial 'scripts' %}
+</body>
+</html>

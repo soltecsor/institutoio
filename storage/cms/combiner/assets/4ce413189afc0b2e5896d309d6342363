@@ -1,0 +1,210 @@
+/* CUSTOM BACKEND SETTINGS */
+
+body {
+
+    color: $color-text;
+
+}
+
+/* HELPERS */
+
+.highlight__primary {
+
+    color: $color-primary;
+
+    &--dark {
+        color: $color-primary-dark;
+    }
+}
+
+.highlight__secondary {
+
+    color: $color-secondary;
+
+    &--dark {
+        color: $color-secondary-dark;
+    }
+}
+
+/* SECTIONS */
+
+.section__title {
+
+    color: $color-text-dark;
+
+    &--underlined::after {
+
+        background-color: $color-primary-dark;
+
+    }
+
+    &--light {
+        
+        color: $color-text-light;
+    }
+}
+
+/* SOCIAL LINKS */
+
+.social-links__item {
+
+    a {
+
+        color: $color-text-light;
+
+        &:hover,
+        &:focus,
+        &:active {
+
+            color: $color-primary-dark;
+        }
+    }
+
+}
+
+/* BUTTONS */
+
+.button {
+
+    color: $color-text-light;
+
+    &--primary {
+
+        background-color: $color-primary;
+
+        &:hover {
+            background-color: darken($color-primary,5%);
+        }
+    }
+
+    &--primary-dark {
+
+        background-color: $color-primary-dark;
+
+        &:hover {
+
+            background-color: darken($color-primary-dark,5%);
+        }
+    }
+
+    &--secondary {
+
+        background-color: $color-secondary;
+
+        &:hover {
+
+            background-color: darken($color-secondary,5%);
+        }
+    }
+
+}
+
+/* HEADER AND NAVIGATION */
+
+.header__info {
+
+    background-color: $color-secondary-dark;
+    color: $color-text-light;
+}
+
+.nav-link {
+
+    &:hover {
+
+        color: $color-primary-dark !important;
+
+    }
+}
+
+.nav-link.active {
+
+    background-color: $color-primary-dark;
+    color: $color-text-light !important;
+}
+
+/* ABOUT */
+
+.about__item {
+
+    color: $color-secondary-dark;
+
+    p {
+        
+        color: $color-text-dark;
+   
+    }
+}
+
+/* TEAM */
+
+.team-profile__titles {
+
+    background: $color-primary;
+    color: $color-text-light;
+}
+
+.team-info__name,
+.team-member__name {
+
+    color: $color-text-dark;
+}
+
+/* FACILITY */
+
+
+.facility-container {
+    
+    background-color: $color-secondary;
+
+}
+
+.facility-container__content {
+
+    color: $color-text-light;
+    background-color: $color-secondary;
+
+}
+
+/* SERVICES */
+
+.service__header {
+
+    background-color: $color-primary;
+    color: $color-text-light;
+ 
+    &--dark {
+
+        background-color: $color-primary-dark;
+    }
+}
+
+/* FOOTER */
+
+.footer {
+
+    background-color: $color-primary-dark;
+    color: $color-text-light;
+}
+
+.footer__copyright-wrap {
+
+    background-color: $color-primary;
+}
+
+.footer-menu {
+
+    a {
+        color: $color-text-light;
+
+        &:hover {
+            color: $color-secondary-dark;
+        }
+    }
+}
+
+
+
+ 
+
+
+

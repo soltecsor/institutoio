@@ -1,0 +1,42 @@
+/* SERVICES */
+
+
+.service {
+
+    box-shadow: 11.2px 12.8px 27px 0 rgba(0, 0, 0, 0.06);
+    
+    @extend .text-center;
+    @extend .mb-4;
+}
+
+.service__header {
+
+    background-color: $primary;
+    color: $text-light;
+    padding: 2.500rem 0;
+
+    h3 {
+        font-size: 1.875rem;
+        @extend .m-0;
+    }
+
+    &--dark {
+
+        background-color: $primary-dark;
+    }
+}
+
+.service__body {
+
+    padding: 2.500rem 0;
+}
+
+.service-list {
+
+    @extend .list;
+}
+
+.service-list__item {
+
+    margin-bottom: 1.250em ;
+}

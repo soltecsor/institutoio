@@ -1,0 +1,374 @@
+tabs:
+  fields:
+
+    # TAB: INFO
+
+    website_name:
+      tab: Info
+      label: Website Name
+      type: text
+      default: Waard
+
+    website_author:
+      tab: Info
+      label: Author
+      type: text
+      default: The Baker Dev
+
+    website_url:
+      tab: Info
+      label: URL
+      type: text
+      default: http://template.thebakerdev.com/waard
+
+    description:
+      tab: Info
+      label: Description
+      type: textarea
+      default: A one page theme using Boostrap 4. Best suited for medical and dental websites.
+
+    keywords:
+      tab: Info
+      label: Keywords
+      type: taglist
+      separator: comma
+      default: october,octobercms,themes,templates,free octobercms themes
+      options:
+        - october
+        - octobercms
+        - themes
+        - templates
+        - free octobercms themes
+        
+    # TAB: HERO
+    
+    hero_description:
+      tab: Hero
+      label: Hero Description
+      type: text
+      default: Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus.
+
+    hero_image:
+      tab: Hero
+      label: Hero Image
+      type: mediafinder
+      mode: image
+
+    hero_carousel:
+      tab: Hero
+      label: Use Carousel
+      type: switch
+      comment: Use carousel instead of static hero image
+      default: false
+      span: full
+    
+    hero_carousel_controls:
+      tab: Hero
+      label: Show Controls
+      type: switch
+      default: false
+      span: auto
+      trigger:
+        action: show
+        field: hero_carousel
+        condition: checked
+      
+    hero_carousel_indicators:
+      tab: Hero
+      label: Show Indicators
+      type: switch
+      default: false
+      span: auto
+      trigger:
+        action: show
+        field: hero_carousel
+        condition: checked
+
+    hero_carousel_slide_1:
+      tab: Hero
+      label: Hero Carousel Slide 1
+      type: mediafinder
+      mode: image
+      default: slide_1.jpg
+      trigger:
+        action: show
+        field: hero_carousel
+        condition: checked
+
+    hero_carousel_slide_2:
+      tab: Hero
+      label: Hero Carousel Slide 2
+      type: mediafinder
+      mode: image
+      default: slide_2.jpg
+      trigger:
+        action: show
+        field: hero_carousel
+        condition: checked
+
+    hero_carousel_slide_3:
+      tab: Hero
+      label: Hero Carousel Slide 3
+      type: mediafinder
+      mode: image
+      default: slide_3.jpg
+      trigger:
+        action: show
+        field: hero_carousel
+        condition: checked
+    
+    # TAB: SOCIAL LINKS
+
+    facebook_link:
+      tab: Social Links
+      label: Facebook
+      type: text
+      default: https://www.facebook.com/
+
+    twitter_link:
+      tab: Social Links
+      label: Twitter
+      type: text
+      default: https://twitter.com/
+
+    instagram_link:
+      tab: Social Links
+      label: Instagram
+      type: text
+      default: https://www.instagram.com/
+
+    pinterest_link:
+      tab: Social Links
+      label: Pinterest
+      type: text
+      default: https://www.pinterest.com/
+    
+    # TAB: ABOUT
+
+    about_heading:
+      tab: About
+      label: Heading
+      type: text
+      default: About Us
+    
+    about_description:
+      tab: About
+      label: Description
+      type: textarea
+      default: Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod consequuntur amet eius, reprehenderit est consequatur tenetur ullam impedit recusandae cum ut voluptates similique non laborum nulla nam aperiam odit.
+    
+    card_text_1:
+      tab: About
+      label: Card Text 1
+      type: text
+      default: Fast Service
+
+    card_text_2:
+      tab: About
+      label: Card Text 2
+      type: text
+      default: We Listen
+
+    card_text_3:
+      tab: About
+      label: Card Text 3
+      type: text
+      default: Always Reliable
+    
+    card_text_4:
+      tab: About
+      label: Card Text 4
+      type: text
+      default: Your Health First
+
+    card_icon_1:
+      tab: About
+      label: Card Icon 1
+      type: text
+      default: fab fa-accessible-icon
+      comment: Card Icons uses Font Awesome 5 --> https://fontawesome.com/icons?d=gallery
+
+    card_icon_2:
+      tab: About
+      label: Card Icon 2
+      type: text
+      default: fas fa-assistive-listening-systems
+
+    card_icon_3:
+      tab: About
+      label: Card Icon 3
+      type: text
+      default: fas fa-ambulance
+
+    card_icon_4:
+      tab: About
+      label: Card Icon 4
+      type: text
+      default: fas fa-plus
+    
+    # TAB: TEAM
+
+    team_heading:
+      tab: Team
+      label: Heading
+      type: text
+      default: Our Team
+
+    # TAB: FACILITY
+    
+    facility_heading:
+      tab: Facility 
+      label: Heading
+      type: text
+      default: Our Facility
+    
+    facility_description:
+      tab: Facility 
+      label: Description
+      type: textarea
+      default: Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quam ipsum quas distinctio aut optio fuga veniam sit omnis quidem natus inventore aperiam
+
+    facility_image:
+      tab: Facility 
+      label: Background Image
+      type: mediafinder
+      mode: image
+
+    # TAB: SERVICES
+
+    services_heading:
+      tab: Services 
+      label: Heading
+      type: text
+      default: Our Services
+    
+    service_1_heading:
+      tab: Services 
+      label: Service 1 Heading
+      type: text
+      default: Service 1
+
+    service_2_heading:
+      tab: Services 
+      label: Service 2 Heading
+      type: text
+      default: Service 2
+    
+    service_3_heading:
+      tab: Services 
+      label: Service 3 Heading
+      type: text
+      default: Service 3
+
+    service_1_items:
+      tab: Services
+      label: Service 1 Items
+      type: taglist
+      separator: comma
+      default: Donec sollicitudin, Nulla porttitor accumsanmolestie, Donec sollicitudin
+
+    service_2_items:
+      tab: Services
+      label: Service 2 Items
+      type: taglist
+      separator: comma
+      default: Donec sollicitudin, Nulla porttitor accumsanmolestie, Donec sollicitudin, Nulla porttitor accumsanmolestie
+
+    service_3_items:
+      tab: Services
+      label: Service 3 Items
+      type: taglist
+      separator: comma
+      default: Donec sollicitudin, Nulla porttitor accumsanmolestie, Donec sollicitudin
+
+    # TAB: FOOTER
+
+    footer_copyright:
+      tab: Footer 
+      label: Copyright
+      type: text
+      default: '@copyright Waard Template'
+
+    # TAB: COLORS
+
+    color_primary:
+      tab: Colors
+      label: Primary
+      type: colorpicker
+      availableColors: ["#81ecec","#fc5c65","#fed330","#a55eea"]
+      default: "#81ecec"
+      assetVar: "color-primary"
+
+    color_primary_dark:
+      tab: Colors
+      label: Primary Dark
+      type: colorpicker
+      availableColors: ["#00cec9","#eb3b5a","#f7b731","#8854d0"]
+      default: "#00cec9"
+      assetVar: "color-primary-dark"
+
+    color_secondary:
+      tab: Colors
+      label: Secondary
+      type: colorpicker
+      availableColors: ["#74b9ff","#778ca3","#fd9644","#d1d8e0"]
+      default: "#74b9ff"
+      assetVar: "color-secondary"
+
+    color_secondary_dark:
+      tab: Colors
+      label: Secondary Dark
+      type: colorpicker
+      availableColors: ["#0984e3","#4b6584","#fa8231","#a5b1c2"]
+      default: "#0984e3"
+      assetVar: "color-secondary-dark"
+
+    color_text:
+      tab: Colors
+      label: Text
+      type: colorpicker
+      availableColors: ["#636e72"]
+      default: "#636e72"
+      assetVar: "color-text"
+
+    color_text_light:
+      tab: Colors
+      label: Text Light
+      type: colorpicker
+      availableColors: ["#ffffff"]
+      default: "#ffffff"
+      assetVar: "color-text-light"
+
+    color_text_dark:
+      tab: Colors
+      label: Text Dark
+      type: colorpicker
+      availableColors: ["#2d3436"]
+      default: "#2d3436"
+      assetVar: "color-text-dark"
+    
+    # TAB: SECTIONS
+
+    section_about:
+      tab: Sections
+      label: Show About
+      type: switch
+      default: true
+    
+    section_team:
+      tab: Sections
+      label: Show Team
+      type: switch
+      default: true
+
+    section_facility:
+      tab: Sections
+      label: Show Facility
+      type: switch
+      default: true
+
+    section_services:
+      tab: Sections
+      label: Show Services
+      type: switch
+      default: true

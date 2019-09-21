@@ -1,0 +1,7 @@
+name: Waard
+description: 'A free one page theme using Boostrap 4. Best suited for medical and dental websites.'
+previewImage: 'assets/dist/images/preview.jpg'
+author: 'The Baker Dev'
+homepage: 'http://octobercms.com'
+code: ''
+form: fields.yaml

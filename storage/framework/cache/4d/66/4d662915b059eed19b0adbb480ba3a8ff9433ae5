@@ -1,0 +1,7 @@
+1569075750a:1:{s:11:"scripts.htm";a:5:{s:8:"fileName";s:11:"scripts.htm";s:7:"content";s:178:"<script defer src="{{ 'assets/dist/js/fontawesome-all.min.js'|theme }}"></script>
+<script src="{{ 'assets/dist/js/app.js'|theme }}"></script>
+{% framework extras %}
+{% scripts %}";s:5:"mtime";i:1569071393;s:6:"markup";s:178:"<script defer src="{{ 'assets/dist/js/fontawesome-all.min.js'|theme }}"></script>
+<script src="{{ 'assets/dist/js/app.js'|theme }}"></script>
+{% framework extras %}
+{% scripts %}";s:4:"code";N;}}

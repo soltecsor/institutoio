@@ -1,0 +1,25 @@
+/* GLOBAL STYLES */
+
+html,
+body {
+    
+    background-color: $text-light;
+}
+
+/* HELPERS */
+
+.highlight__primary {
+    color: $primary;
+
+    &--dark {
+        color: $primary-dark;
+    }
+}
+
+.highlight__secondary {
+    color: $secondary;
+
+    &--dark {
+        color: $secondary-dark;
+    }
+}

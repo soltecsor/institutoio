@@ -1,0 +1,54 @@
+/* BUTTONS */
+
+.button {
+
+    border:none;
+    border-radius: 30px;
+    color: $text-light;
+    cursor: pointer;
+    min-width: 200px;
+    padding: .750rem 2.20rem;
+    transition: all .3s ease-in-out;
+    -webkit-appearance: none;
+
+    &--elevate:hover {
+
+        box-shadow: 11.2px 12.8px 27px 0 rgba(0, 0, 0, 0.09);
+    }
+
+    &:focus {
+
+        outline: none;
+    }
+
+    &--primary {
+
+        background-color: $primary;
+
+        &:hover {
+            background-color: darken($primary,5%);
+        }
+    }
+
+    &--primary-dark {
+
+        background-color: $primary-dark;
+
+        &:hover {
+
+            background-color: darken($primary-dark,5%);
+        }
+    }
+
+    &--secondary {
+
+        background-color: $secondary;
+
+        &:hover {
+
+            background-color: darken($secondary,5%);
+        }
+    }
+
+}
+

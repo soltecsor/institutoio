@@ -1,0 +1,67 @@
+/* HERO */
+
+.hero {
+
+    background-size: cover;
+    background-attachment:fixed;
+    color: $text-light;
+    font-family: $font-alt;
+    height:100%;
+    position: relative;
+
+    h1 {
+        font-size: 2.250rem;
+        font-weight: bold;
+        margin-bottom: 1.575rem;
+        text-transform: uppercase;
+
+        & > span {
+            display: block;
+            font-size: 3rem;
+        }
+    }
+
+    &::before {
+        background: $text-dark;
+        content: "";
+        height: 100%;
+        left: 0;
+        opacity: .3;
+        position: absolute;
+        top:0;
+        width: 100%;
+    }
+
+    &  div[class*=' col-'] {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 37.500rem;
+    }
+}
+
+
+@include media-breakpoint-up(sm) {
+
+    .hero {
+
+       // padding: 6.250rem 0;
+    }
+}
+
+
+@include media-breakpoint-up(md) {
+
+    .hero {
+
+        //padding: 10rem 0;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+
+    .hero {
+        
+        //padding: 12.500rem 0;
+    }
+}

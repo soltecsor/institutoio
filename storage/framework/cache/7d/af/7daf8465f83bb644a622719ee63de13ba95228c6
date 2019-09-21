@@ -1,0 +1,128 @@
+1569075750a:1:{s:12:"services.htm";a:6:{s:8:"fileName";s:12:"services.htm";s:7:"content";s:2905:"==
+function onStart() {
+
+    $this['service_1_items'] = explode(',',$this->theme->service_1_items);
+
+    $this['service_2_items'] = explode(',',$this->theme->service_2_items);
+
+    $this['service_3_items'] = explode(',',$this->theme->service_3_items);
+}
+==
+<section id="services" class="section services">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="section__title section__title--underlined text-center mt-0" data-aos="fade" >{{ this.theme.services_heading }}</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="service" data-aos="fade-right">
+                    <header class="service__header">
+                        <h3>{{ this.theme.service_1_heading }}</h3>
+                    </header>
+                    <div class="service__body">
+                        <ul class="service-list">
+                            {% for service_1_item in service_1_items %}
+                                <li class="service-list__item">{{ service_1_item }}</li>
+                            {% endfor %}
+                        </ul>
+                        <button class="button button--elevate button--secondary mt-4">Vivus magna</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service" data-aos="fade-down">
+                    <header class="service__header service__header--dark">
+                        <h3>{{ this.theme.service_2_heading }}</h3>
+                    </header>
+                    <div class="service__body">
+                        <ul class="service-list">
+                            {% for service_2_item in service_2_items %}
+                                <li class="service-list__item">{{ service_2_item }}</li>
+                            {% endfor %}
+                        </ul>
+                        <button class="button button--elevate button--secondary mt-4">Vivus magna</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service" data-aos="fade-left">
+                    <header class="service__header">
+                        <h3>{{ this.theme.service_3_heading }}</h3>
+                    </header>
+                    <div class="service__body">
+                        <ul class="service-list">
+                            {% for service_3_item in service_3_items %}
+                                <li class="service-list__item">{{ service_3_item }}</li>
+                            {% endfor %}
+                        </ul>
+                        <button class="button button--elevate button--secondary mt-4">Vivus magna</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>";s:5:"mtime";i:1569071393;s:6:"markup";s:2648:"<section id="services" class="section services">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="section__title section__title--underlined text-center mt-0" data-aos="fade" >{{ this.theme.services_heading }}</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="service" data-aos="fade-right">
+                    <header class="service__header">
+                        <h3>{{ this.theme.service_1_heading }}</h3>
+                    </header>
+                    <div class="service__body">
+                        <ul class="service-list">
+                            {% for service_1_item in service_1_items %}
+                                <li class="service-list__item">{{ service_1_item }}</li>
+                            {% endfor %}
+                        </ul>
+                        <button class="button button--elevate button--secondary mt-4">Vivus magna</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service" data-aos="fade-down">
+                    <header class="service__header service__header--dark">
+                        <h3>{{ this.theme.service_2_heading }}</h3>
+                    </header>
+                    <div class="service__body">
+                        <ul class="service-list">
+                            {% for service_2_item in service_2_items %}
+                                <li class="service-list__item">{{ service_2_item }}</li>
+                            {% endfor %}
+                        </ul>
+                        <button class="button button--elevate button--secondary mt-4">Vivus magna</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service" data-aos="fade-left">
+                    <header class="service__header">
+                        <h3>{{ this.theme.service_3_heading }}</h3>
+                    </header>
+                    <div class="service__body">
+                        <ul class="service-list">
+                            {% for service_3_item in service_3_items %}
+                                <li class="service-list__item">{{ service_3_item }}</li>
+                            {% endfor %}
+                        </ul>
+                        <button class="button button--elevate button--secondary mt-4">Vivus magna</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>";s:4:"code";s:250:"function onStart() {
+
+    $this['service_1_items'] = explode(',',$this->theme->service_1_items);
+
+    $this['service_2_items'] = explode(',',$this->theme->service_2_items);
+
+    $this['service_3_items'] = explode(',',$this->theme->service_3_items);
+}";s:17:"_PARSER_ERROR_INI";s:0:"";}}
