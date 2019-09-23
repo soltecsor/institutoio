@@ -7,32 +7,33 @@
         </div>
         <div class="row">
             <div class="col-md-7 mx-auto text-center" data-aos="fade" >
-                <p class="about__description">{{ this.theme.about_description }}</p>
+                <!--<p class="about__description">{{ this.theme.about_description }}</p>-->
+                <p class="about__description">{% content 'home-sobrenos/sobrenos.txt' %}</p>
             </div>
         </div>
         <div class="row">
             <div class="col-6 col-md-3">
                 <div class="about__item" data-aos="fade-zoom-in" >
                     <i class="{{ this.theme.card_icon_1 }}"></i>
-                    <p>{{ this.theme.card_text_1 }}</p>
+                    <p>{% content 'home-sobrenos/card-1.htm' %}</p>
                 </div>
             </div>
             <div class="col-6 col-md-3">
                 <div class="about__item" data-aos="fade-zoom-in" data-aos-delay="150" >
                     <i class="{{ this.theme.card_icon_2 }}"></i>
-                    <p>{{ this.theme.card_text_2 }}</p>
+                    <p>{% content 'home-sobrenos/card-2.htm' %}</p>
                 </div>
             </div>
             <div class="col-6 col-md-3">
                 <div class="about__item" data-aos="fade-zoom-in" data-aos-delay="250" >
                     <i class="{{ this.theme.card_icon_3 }}"></i>
-                    <p>{{ this.theme.card_text_3 }}</p>
+                    <p>{% content 'home-sobrenos/card-3.htm' %}</p>
                 </div>
             </div>
             <div class="col-6 col-md-3" data-aos="fade-zoom-in" data-aos-delay="350" >
                 <div class="about__item">
                     <i class="{{ this.theme.card_icon_4 }}"></i>
-                    <p>{{ this.theme.card_text_4 }}</p>
+                    <p>{% content 'home-sobrenos/card-4.htm' %}</p>
                 </div>
             </div>
         </div>

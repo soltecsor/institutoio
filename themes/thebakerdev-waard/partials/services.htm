@@ -19,45 +19,84 @@ function onStart() {
             <div class="col-md-4">
                 <div class="service" data-aos="fade-right">
                     <header class="service__header">
-                        <h3>{{ this.theme.service_1_heading }}</h3>
+                        <h3>Nossas Causas</h3>
                     </header>
                     <div class="service__body">
                         <ul class="service-list">
-                            {% for service_1_item in service_1_items %}
-                                <li class="service-list__item">{{ service_1_item }}</li>
-                            {% endfor %}
+                            <li class="service-list__item">{% content 'home-oquefazemos/nossascausas.txt' %}</li>
                         </ul>
-                        <button class="button button--elevate button--secondary mt-4">Vivus magna</button>
+                        <button class="button button--elevate button--secondary mt-4">Saber Mais</button>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="service" data-aos="fade-down">
                     <header class="service__header service__header--dark">
-                        <h3>{{ this.theme.service_2_heading }}</h3>
+                        <h3>Advocacy</h3>
                     </header>
                     <div class="service__body">
                         <ul class="service-list">
-                            {% for service_2_item in service_2_items %}
-                                <li class="service-list__item">{{ service_2_item }}</li>
-                            {% endfor %}
+                            <li class="service-list__item">{% content 'home-oquefazemos/advocacy.txt' %}</li>
                         </ul>
-                        <button class="button button--elevate button--secondary mt-4">Vivus magna</button>
+                        <button class="button button--elevate button--secondary mt-4">Saber Mais</button>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="service" data-aos="fade-left">
                     <header class="service__header">
-                        <h3>{{ this.theme.service_3_heading }}</h3>
+                        <h3>Educação e Saúde</h3>
                     </header>
                     <div class="service__body">
                         <ul class="service-list">
-                            {% for service_3_item in service_3_items %}
-                                <li class="service-list__item">{{ service_3_item }}</li>
-                            {% endfor %}
+                            <li class="service-list__item">{% content 'home-oquefazemos/educacaoesaude.txt' %}</li>
                         </ul>
-                        <button class="button button--elevate button--secondary mt-4">Vivus magna</button>
+                        <button class="button button--elevate button--secondary mt-4">Saber Mais</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="services2" class="section services">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="service" data-aos="fade-right">
+                    <header class="service__header">
+                        <h3>Cultura e Saúde</h3>
+                    </header>
+                    <div class="service__body">
+                        <ul class="service-list">
+                                <li class="service-list__item">{% content 'home-oquefazemos/culturaesaude.txt' %}</li>
+                        </ul>
+                        <button class="button button--elevate button--secondary mt-4">Saber Mais</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service" data-aos="fade-down">
+                    <header class="service__header service__header--dark">
+                        <h3>Paciente</h3>
+                    </header>
+                    <div class="service__body">
+                        <ul class="service-list">
+                            <li class="service-list__item">{% content 'home-oquefazemos/paciente.txt' %}</li>
+                        </ul>
+                        <button class="button button--elevate button--secondary mt-4">Saber Mais</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service" data-aos="fade-left">
+                    <header class="service__header">
+                        <h3>Pesquisas</h3>
+                    </header>
+                    <div class="service__body">
+                         <ul class="service-list">
+                            <li class="service-list__item">{% content 'home-oquefazemos/pesquisas.txt' %}</li>
+                        </ul>
+                        <button class="button button--elevate button--secondary mt-4">Saber Mais</button>
                     </div>
                 </div>
             </div>

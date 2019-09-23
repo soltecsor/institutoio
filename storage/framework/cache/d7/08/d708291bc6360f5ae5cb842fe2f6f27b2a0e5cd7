@@ -1,4 +1,4 @@
-1569075750a:1:{s:12:"facility.htm";a:5:{s:8:"fileName";s:12:"facility.htm";s:7:"content";s:656:"<section id="facility" class="section facility">
+1569277525a:1:{s:12:"facility.htm";a:5:{s:8:"fileName";s:12:"facility.htm";s:7:"content";s:656:"<section id="facility" class="section facility">
     <div class="container-fluid facility-container">
         <div class="facility-container__content" data-aos="fade" >
             <h2 class="section__title section__title--light mb-5">{{ this.theme.facility_heading }}</h2>

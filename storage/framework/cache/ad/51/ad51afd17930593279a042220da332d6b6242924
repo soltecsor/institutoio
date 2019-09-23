@@ -1,4 +1,4 @@
-1569075750a:1:{s:10:"header.htm";a:5:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:8496:"<header id="home" class="header">
+1569277524a:1:{s:10:"header.htm";a:5:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:8479:"<header id="home" class="header">
     <div class="header__info">
         <div class="container">
             <div class="row">
@@ -37,26 +37,26 @@
                 </li>
                 {% if(this.theme.section_about) %}
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">Quem Somos</a>
-                    </li>
-                {% endif %}
-                {% if(this.theme.section_team) %}
-                    <li class="nav-item">
-                            <a class="nav-link" href="#team">Nosso Trabalho</a>
-                    </li>
-                {% endif %}
-                {% if(this.theme.section_facility) %}
-                    <li class="nav-item">
-                        <a class="nav-link" href="#facility">Eventos e Campanhas</a>
+                        <a class="nav-link" href="#about">Sobre nós</a>
                     </li>
                 {% endif %}
                 {% if(this.theme.section_services) %}
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">Doenças e Prevenção</a>
+                            <a class="nav-link" href="#services">O que fazemos</a>
+                    </li>
+                {% endif %}
+                {% if(this.theme.section_facility) %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Eventos e Campanhas</a>
+                    </li>
+                {% endif %}
+                {% if(this.theme.section_services) %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Doenças e Prevenção</a>
                     </li>
                 {% endif %}
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">Blog</a>
+                        <a class="nav-link" href="#">Blog</a>
                     </li>
                 </ul>
             </div>
@@ -144,7 +144,7 @@
       </div>
       {% endif %}
       
-</header>";s:5:"mtime";i:1569075145;s:6:"markup";s:8496:"<header id="home" class="header">
+</header>";s:5:"mtime";i:1569263991;s:6:"markup";s:8479:"<header id="home" class="header">
     <div class="header__info">
         <div class="container">
             <div class="row">
@@ -183,26 +183,26 @@
                 </li>
                 {% if(this.theme.section_about) %}
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">Quem Somos</a>
-                    </li>
-                {% endif %}
-                {% if(this.theme.section_team) %}
-                    <li class="nav-item">
-                            <a class="nav-link" href="#team">Nosso Trabalho</a>
-                    </li>
-                {% endif %}
-                {% if(this.theme.section_facility) %}
-                    <li class="nav-item">
-                        <a class="nav-link" href="#facility">Eventos e Campanhas</a>
+                        <a class="nav-link" href="#about">Sobre nós</a>
                     </li>
                 {% endif %}
                 {% if(this.theme.section_services) %}
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">Doenças e Prevenção</a>
+                            <a class="nav-link" href="#services">O que fazemos</a>
+                    </li>
+                {% endif %}
+                {% if(this.theme.section_facility) %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Eventos e Campanhas</a>
+                    </li>
+                {% endif %}
+                {% if(this.theme.section_services) %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Doenças e Prevenção</a>
                     </li>
                 {% endif %}
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">Blog</a>
+                        <a class="nav-link" href="#">Blog</a>
                     </li>
                 </ul>
             </div>

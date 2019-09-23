@@ -1,22 +1,106 @@
-1569075864a:1:{s:8:"meta.htm";a:5:{s:8:"fileName";s:8:"meta.htm";s:7:"content";s:806:"<meta charset="utf-8">
+1569277874a:1:{s:8:"meta.htm";a:5:{s:8:"fileName";s:8:"meta.htm";s:7:"content";s:1625:"<meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="{{ this.page.meta_description|default(this.theme.description) }}">
 <meta name="keywords" content="{{ this.theme.keywords }}">
 <meta name="author" content="{{ this.theme.website_author }}">
-<title>{{ this.theme.website_name }} - {{ this.page.meta_title|default(this.page.title) }}</title>
+<!--<title>{{ this.theme.website_name }} - {{ this.page.meta_title|default(this.page.title) }}</title>-->
+<title>Instituto de Oncologia de Mogi das Cruzes</title>
 <link rel="canonical" href="{{ this.theme.website_url }}" />
 <!--<link rel="icon" type="image/png" href="{{ 'assets/dist/images/icon.png'|theme }}" />-->
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <link href="{{ ['assets/dist/css/style.css','assets/src/scss/custom.scss']|theme }}" rel="stylesheet">
-";s:5:"mtime";i:1569073939;s:6:"markup";s:805:"<meta charset="utf-8">
+<style>
+	/* equal card height */
+.row-equal > div[class*='col-'] {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.row-equal .card {
+   width: 100%;
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner>.row-equal.active, 
+.carousel-inner>.row-equal.next, 
+.carousel-inner>.row-equal.prev {
+    display: flex;
+}
+
+/* prevent flicker during transition */
+.carousel-inner>.row-equal.active.left, 
+.carousel-inner>.row-equal.active.right {
+    opacity: 0.5;
+    display: flex;
+}
+
+
+/* control image height */
+.card-img-top-250 {
+    max-height: 250px;
+    overflow:hidden;
+}
+@media (min-width: 768px) {
+.carousel-multi-item-2 .col-md-3 {
+float: left;
+width: 25%;
+max-width: 100%; } }
+
+.carousel-multi-item-2 .card img {
+border-radius: 2px; }
+</style>
+
+
+";s:5:"mtime";i:1569277266;s:6:"markup";s:1622:"<meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="{{ this.page.meta_description|default(this.theme.description) }}">
 <meta name="keywords" content="{{ this.theme.keywords }}">
 <meta name="author" content="{{ this.theme.website_author }}">
-<title>{{ this.theme.website_name }} - {{ this.page.meta_title|default(this.page.title) }}</title>
+<!--<title>{{ this.theme.website_name }} - {{ this.page.meta_title|default(this.page.title) }}</title>-->
+<title>Instituto de Oncologia de Mogi das Cruzes</title>
 <link rel="canonical" href="{{ this.theme.website_url }}" />
 <!--<link rel="icon" type="image/png" href="{{ 'assets/dist/images/icon.png'|theme }}" />-->
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-<link href="{{ ['assets/dist/css/style.css','assets/src/scss/custom.scss']|theme }}" rel="stylesheet">";s:4:"code";N;}}
+<link href="{{ ['assets/dist/css/style.css','assets/src/scss/custom.scss']|theme }}" rel="stylesheet">
+<style>
+	/* equal card height */
+.row-equal > div[class*='col-'] {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.row-equal .card {
+   width: 100%;
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner>.row-equal.active, 
+.carousel-inner>.row-equal.next, 
+.carousel-inner>.row-equal.prev {
+    display: flex;
+}
+
+/* prevent flicker during transition */
+.carousel-inner>.row-equal.active.left, 
+.carousel-inner>.row-equal.active.right {
+    opacity: 0.5;
+    display: flex;
+}
+
+
+/* control image height */
+.card-img-top-250 {
+    max-height: 250px;
+    overflow:hidden;
+}
+@media (min-width: 768px) {
+.carousel-multi-item-2 .col-md-3 {
+float: left;
+width: 25%;
+max-width: 100%; } }
+
+.carousel-multi-item-2 .card img {
+border-radius: 2px; }
+</style>";s:4:"code";N;}}

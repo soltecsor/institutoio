@@ -88,16 +88,16 @@ class __TwigTemplate_2a2366fd9a84e5957bf3a1d479b75140c28990978369cd034347f997abf
         if (twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 38), "section_about", [], "any", false, false, false, 38)) {
             // line 39
             echo "                    <li class=\"nav-item\">
-                        <a class=\"nav-link\" href=\"#about\">Quem Somos</a>
+                        <a class=\"nav-link\" href=\"#about\">Sobre nós</a>
                     </li>
                 ";
         }
         // line 43
         echo "                ";
-        if (twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 43), "section_team", [], "any", false, false, false, 43)) {
+        if (twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 43), "section_services", [], "any", false, false, false, 43)) {
             // line 44
             echo "                    <li class=\"nav-item\">
-                            <a class=\"nav-link\" href=\"#team\">Nosso Trabalho</a>
+                            <a class=\"nav-link\" href=\"#services\">O que fazemos</a>
                     </li>
                 ";
         }
@@ -106,7 +106,7 @@ class __TwigTemplate_2a2366fd9a84e5957bf3a1d479b75140c28990978369cd034347f997abf
         if (twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 48), "section_facility", [], "any", false, false, false, 48)) {
             // line 49
             echo "                    <li class=\"nav-item\">
-                        <a class=\"nav-link\" href=\"#facility\">Eventos e Campanhas</a>
+                        <a class=\"nav-link\" href=\"#\">Eventos e Campanhas</a>
                     </li>
                 ";
         }
@@ -115,13 +115,13 @@ class __TwigTemplate_2a2366fd9a84e5957bf3a1d479b75140c28990978369cd034347f997abf
         if (twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 53), "section_services", [], "any", false, false, false, 53)) {
             // line 54
             echo "                    <li class=\"nav-item\">
-                        <a class=\"nav-link\" href=\"#services\">Doenças e Prevenção</a>
+                        <a class=\"nav-link\" href=\"#\">Doenças e Prevenção</a>
                     </li>
                 ";
         }
         // line 58
         echo "                    <li class=\"nav-item\">
-                        <a class=\"nav-link\" href=\"#services\">Blog</a>
+                        <a class=\"nav-link\" href=\"#\">Blog</a>
                     </li>
                 </ul>
             </div>
@@ -302,26 +302,26 @@ class __TwigTemplate_2a2366fd9a84e5957bf3a1d479b75140c28990978369cd034347f997abf
                 </li>
                 {% if(this.theme.section_about) %}
                     <li class=\"nav-item\">
-                        <a class=\"nav-link\" href=\"#about\">Quem Somos</a>
-                    </li>
-                {% endif %}
-                {% if(this.theme.section_team) %}
-                    <li class=\"nav-item\">
-                            <a class=\"nav-link\" href=\"#team\">Nosso Trabalho</a>
-                    </li>
-                {% endif %}
-                {% if(this.theme.section_facility) %}
-                    <li class=\"nav-item\">
-                        <a class=\"nav-link\" href=\"#facility\">Eventos e Campanhas</a>
+                        <a class=\"nav-link\" href=\"#about\">Sobre nós</a>
                     </li>
                 {% endif %}
                 {% if(this.theme.section_services) %}
                     <li class=\"nav-item\">
-                        <a class=\"nav-link\" href=\"#services\">Doenças e Prevenção</a>
+                            <a class=\"nav-link\" href=\"#services\">O que fazemos</a>
+                    </li>
+                {% endif %}
+                {% if(this.theme.section_facility) %}
+                    <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"#\">Eventos e Campanhas</a>
+                    </li>
+                {% endif %}
+                {% if(this.theme.section_services) %}
+                    <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"#\">Doenças e Prevenção</a>
                     </li>
                 {% endif %}
                     <li class=\"nav-item\">
-                        <a class=\"nav-link\" href=\"#services\">Blog</a>
+                        <a class=\"nav-link\" href=\"#\">Blog</a>
                     </li>
                 </ul>
             </div>

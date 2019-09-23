@@ -1,4 +1,4 @@
-1569076290a:1:{s:10:"footer.htm";a:5:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:2255:"<footer class="footer">
+1569277836a:1:{s:10:"footer.htm";a:5:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:2256:"<footer class="footer">
     <div class="container">
         <div class="row">
                 <div class="col-md-4">
@@ -41,7 +41,8 @@
             </div>
         </div>
     </div>
-</footer>";s:5:"mtime";i:1569075685;s:6:"markup";s:2255:"<footer class="footer">
+</footer>
+";s:5:"mtime";i:1569274625;s:6:"markup";s:2255:"<footer class="footer">
     <div class="container">
         <div class="row">
                 <div class="col-md-4">

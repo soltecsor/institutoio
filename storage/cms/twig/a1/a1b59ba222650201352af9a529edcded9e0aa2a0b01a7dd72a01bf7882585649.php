@@ -65,67 +65,81 @@ class __TwigTemplate_ecaeb2a1e510e001f6401e71195c1e49ca0670cd39e1687ccb65f0d460a
             echo "            ";
         }
         // line 13
-        echo "
-            ";
-        // line 14
-        if (twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 14), "section_team", [], "any", false, false, false, 14)) {
-            // line 15
-            echo "                ";
-            $context['__cms_partial_params'] = [];
-            echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("team"            , $context['__cms_partial_params']            , true            );
-            unset($context['__cms_partial_params']);
-            // line 16
-            echo "            ";
-        }
-        // line 17
-        echo "
-            ";
-        // line 18
-        if (twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 18), "section_facility", [], "any", false, false, false, 18)) {
-            // line 19
-            echo "                ";
-            $context['__cms_partial_params'] = [];
-            echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("facility"            , $context['__cms_partial_params']            , true            );
-            unset($context['__cms_partial_params']);
-            // line 20
-            echo "            ";
-        }
-        // line 21
-        echo "
-            ";
-        // line 22
-        if (twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 22), "section_services", [], "any", false, false, false, 22)) {
-            // line 23
+        echo "            ";
+        if (twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 13), "section_services", [], "any", false, false, false, 13)) {
+            // line 14
             echo "                ";
             $context['__cms_partial_params'] = [];
             echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("services"            , $context['__cms_partial_params']            , true            );
             unset($context['__cms_partial_params']);
-            // line 24
+            // line 15
             echo "            ";
         }
+        // line 16
+        echo "                ";
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("campanhas"        , $context['__cms_partial_params']        , true        );
+        unset($context['__cms_partial_params']);
+        // line 17
+        echo "           <!-- ";
+        if (twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 17), "section_team", [], "any", false, false, false, 17)) {
+            // line 18
+            echo "                ";
+            $context['__cms_partial_params'] = [];
+            echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("team"            , $context['__cms_partial_params']            , true            );
+            unset($context['__cms_partial_params']);
+            // line 19
+            echo "            ";
+        }
+        echo "-->
+
+            <!--";
+        // line 21
+        if (twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 21), "section_facility", [], "any", false, false, false, 21)) {
+            // line 22
+            echo "                ";
+            $context['__cms_partial_params'] = [];
+            echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("facility"            , $context['__cms_partial_params']            , true            );
+            unset($context['__cms_partial_params']);
+            // line 23
+            echo "            ";
+        }
+        echo "-->
+
+            <!--";
         // line 25
+        if (twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 25), "section_services", [], "any", false, false, false, 25)) {
+            // line 26
+            echo "                ";
+            $context['__cms_partial_params'] = [];
+            echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("services"            , $context['__cms_partial_params']            , true            );
+            unset($context['__cms_partial_params']);
+            echo "-->
+            ";
+        }
+        // line 28
         echo "            
         </main>
         ";
-        // line 27
+        // line 30
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("footer"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 28
+        // line 31
         echo "    </div>
     ";
-        // line 29
+        // line 32
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("modal"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 30
+        // line 33
         echo "
     ";
-        // line 31
+        // line 34
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("scripts"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 32
+        // line 35
         echo "</body>
 </html>";
     }
@@ -142,7 +156,7 @@ class __TwigTemplate_ecaeb2a1e510e001f6401e71195c1e49ca0670cd39e1687ccb65f0d460a
 
     public function getDebugInfo()
     {
-        return array (  129 => 32,  125 => 31,  122 => 30,  118 => 29,  115 => 28,  111 => 27,  107 => 25,  104 => 24,  99 => 23,  97 => 22,  94 => 21,  91 => 20,  86 => 19,  84 => 18,  81 => 17,  78 => 16,  73 => 15,  71 => 14,  68 => 13,  65 => 12,  60 => 11,  58 => 10,  55 => 9,  51 => 8,  46 => 5,  42 => 4,  37 => 1,);
+        return array (  143 => 35,  139 => 34,  136 => 33,  132 => 32,  129 => 31,  125 => 30,  121 => 28,  113 => 26,  111 => 25,  105 => 23,  100 => 22,  98 => 21,  92 => 19,  87 => 18,  84 => 17,  79 => 16,  76 => 15,  71 => 14,  68 => 13,  65 => 12,  60 => 11,  58 => 10,  55 => 9,  51 => 8,  46 => 5,  42 => 4,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -159,17 +173,20 @@ class __TwigTemplate_ecaeb2a1e510e001f6401e71195c1e49ca0670cd39e1687ccb65f0d460a
             {% if(this.theme.section_about) %}
                 {% partial 'about' %}
             {% endif %}
-
-            {% if(this.theme.section_team) %}
-                {% partial 'team' %}
-            {% endif %}
-
-            {% if(this.theme.section_facility) %}
-                {% partial 'facility' %}
-            {% endif %}
-
             {% if(this.theme.section_services) %}
                 {% partial 'services' %}
+            {% endif %}
+                {% partial 'campanhas' %}
+           <!-- {% if(this.theme.section_team) %}
+                {% partial 'team' %}
+            {% endif %}-->
+
+            <!--{% if(this.theme.section_facility) %}
+                {% partial 'facility' %}
+            {% endif %}-->
+
+            <!--{% if(this.theme.section_services) %}
+                {% partial 'services' %}-->
             {% endif %}
             
         </main>

@@ -4,8 +4,51 @@
 <meta name="description" content="{{ this.page.meta_description|default(this.theme.description) }}">
 <meta name="keywords" content="{{ this.theme.keywords }}">
 <meta name="author" content="{{ this.theme.website_author }}">
-<title>{{ this.theme.website_name }} - {{ this.page.meta_title|default(this.page.title) }}</title>
+<!--<title>{{ this.theme.website_name }} - {{ this.page.meta_title|default(this.page.title) }}</title>-->
+<title>Instituto de Oncologia de Mogi das Cruzes</title>
 <link rel="canonical" href="{{ this.theme.website_url }}" />
 <!--<link rel="icon" type="image/png" href="{{ 'assets/dist/images/icon.png'|theme }}" />-->
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <link href="{{ ['assets/dist/css/style.css','assets/src/scss/custom.scss']|theme }}" rel="stylesheet">
+<style>
+	/* equal card height */
+.row-equal > div[class*='col-'] {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.row-equal .card {
+   width: 100%;
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner>.row-equal.active, 
+.carousel-inner>.row-equal.next, 
+.carousel-inner>.row-equal.prev {
+    display: flex;
+}
+
+/* prevent flicker during transition */
+.carousel-inner>.row-equal.active.left, 
+.carousel-inner>.row-equal.active.right {
+    opacity: 0.5;
+    display: flex;
+}
+
+
+/* control image height */
+.card-img-top-250 {
+    max-height: 250px;
+    overflow:hidden;
+}
+@media (min-width: 768px) {
+.carousel-multi-item-2 .col-md-3 {
+float: left;
+width: 25%;
+max-width: 100%; } }
+
+.carousel-multi-item-2 .card img {
+border-radius: 2px; }
+</style>
+
+

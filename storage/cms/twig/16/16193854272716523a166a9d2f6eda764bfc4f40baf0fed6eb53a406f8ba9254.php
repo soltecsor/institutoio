@@ -46,9 +46,15 @@ class __TwigTemplate_0e760af85c00fef0f168237de83eafc6ace3fe4d7f00c1fc45a8fb21fb2
         </div>
         <div class=\"row\">
             <div class=\"col-md-7 mx-auto text-center\" data-aos=\"fade\" >
-                <p class=\"about__description\">";
+                <!--<p class=\"about__description\">";
         // line 10
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 10), "about_description", [], "any", false, false, false, 10), "html", null, true);
+        echo "</p>-->
+                <p class=\"about__description\">";
+        // line 11
+        $context['__cms_content_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->contentFunction("home-sobrenos/sobrenos.txt"        , $context['__cms_content_params']        );
+        unset($context['__cms_content_params']);
         echo "</p>
             </div>
         </div>
@@ -56,48 +62,56 @@ class __TwigTemplate_0e760af85c00fef0f168237de83eafc6ace3fe4d7f00c1fc45a8fb21fb2
             <div class=\"col-6 col-md-3\">
                 <div class=\"about__item\" data-aos=\"fade-zoom-in\" >
                     <i class=\"";
-        // line 16
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 16), "card_icon_1", [], "any", false, false, false, 16), "html", null, true);
+        // line 17
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 17), "card_icon_1", [], "any", false, false, false, 17), "html", null, true);
         echo "\"></i>
                     <p>";
-        // line 17
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 17), "card_text_1", [], "any", false, false, false, 17), "html", null, true);
+        // line 18
+        $context['__cms_content_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->contentFunction("home-sobrenos/card-1.htm"        , $context['__cms_content_params']        );
+        unset($context['__cms_content_params']);
         echo "</p>
                 </div>
             </div>
             <div class=\"col-6 col-md-3\">
                 <div class=\"about__item\" data-aos=\"fade-zoom-in\" data-aos-delay=\"150\" >
                     <i class=\"";
-        // line 22
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 22), "card_icon_2", [], "any", false, false, false, 22), "html", null, true);
+        // line 23
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 23), "card_icon_2", [], "any", false, false, false, 23), "html", null, true);
         echo "\"></i>
                     <p>";
-        // line 23
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 23), "card_text_2", [], "any", false, false, false, 23), "html", null, true);
+        // line 24
+        $context['__cms_content_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->contentFunction("home-sobrenos/card-2.htm"        , $context['__cms_content_params']        );
+        unset($context['__cms_content_params']);
         echo "</p>
                 </div>
             </div>
             <div class=\"col-6 col-md-3\">
                 <div class=\"about__item\" data-aos=\"fade-zoom-in\" data-aos-delay=\"250\" >
                     <i class=\"";
-        // line 28
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 28), "card_icon_3", [], "any", false, false, false, 28), "html", null, true);
+        // line 29
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 29), "card_icon_3", [], "any", false, false, false, 29), "html", null, true);
         echo "\"></i>
                     <p>";
-        // line 29
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 29), "card_text_3", [], "any", false, false, false, 29), "html", null, true);
+        // line 30
+        $context['__cms_content_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->contentFunction("home-sobrenos/card-3.htm"        , $context['__cms_content_params']        );
+        unset($context['__cms_content_params']);
         echo "</p>
                 </div>
             </div>
             <div class=\"col-6 col-md-3\" data-aos=\"fade-zoom-in\" data-aos-delay=\"350\" >
                 <div class=\"about__item\">
                     <i class=\"";
-        // line 34
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 34), "card_icon_4", [], "any", false, false, false, 34), "html", null, true);
+        // line 35
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 35), "card_icon_4", [], "any", false, false, false, 35), "html", null, true);
         echo "\"></i>
                     <p>";
-        // line 35
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 35), "card_text_4", [], "any", false, false, false, 35), "html", null, true);
+        // line 36
+        $context['__cms_content_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->contentFunction("home-sobrenos/card-4.htm"        , $context['__cms_content_params']        );
+        unset($context['__cms_content_params']);
         echo "</p>
                 </div>
             </div>
@@ -118,7 +132,7 @@ class __TwigTemplate_0e760af85c00fef0f168237de83eafc6ace3fe4d7f00c1fc45a8fb21fb2
 
     public function getDebugInfo()
     {
-        return array (  100 => 35,  96 => 34,  88 => 29,  84 => 28,  76 => 23,  72 => 22,  64 => 17,  60 => 16,  51 => 10,  43 => 5,  37 => 1,);
+        return array (  112 => 36,  108 => 35,  98 => 30,  94 => 29,  84 => 24,  80 => 23,  70 => 18,  66 => 17,  55 => 11,  51 => 10,  43 => 5,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -132,32 +146,33 @@ class __TwigTemplate_0e760af85c00fef0f168237de83eafc6ace3fe4d7f00c1fc45a8fb21fb2
         </div>
         <div class=\"row\">
             <div class=\"col-md-7 mx-auto text-center\" data-aos=\"fade\" >
-                <p class=\"about__description\">{{ this.theme.about_description }}</p>
+                <!--<p class=\"about__description\">{{ this.theme.about_description }}</p>-->
+                <p class=\"about__description\">{% content 'home-sobrenos/sobrenos.txt' %}</p>
             </div>
         </div>
         <div class=\"row\">
             <div class=\"col-6 col-md-3\">
                 <div class=\"about__item\" data-aos=\"fade-zoom-in\" >
                     <i class=\"{{ this.theme.card_icon_1 }}\"></i>
-                    <p>{{ this.theme.card_text_1 }}</p>
+                    <p>{% content 'home-sobrenos/card-1.htm' %}</p>
                 </div>
             </div>
             <div class=\"col-6 col-md-3\">
                 <div class=\"about__item\" data-aos=\"fade-zoom-in\" data-aos-delay=\"150\" >
                     <i class=\"{{ this.theme.card_icon_2 }}\"></i>
-                    <p>{{ this.theme.card_text_2 }}</p>
+                    <p>{% content 'home-sobrenos/card-2.htm' %}</p>
                 </div>
             </div>
             <div class=\"col-6 col-md-3\">
                 <div class=\"about__item\" data-aos=\"fade-zoom-in\" data-aos-delay=\"250\" >
                     <i class=\"{{ this.theme.card_icon_3 }}\"></i>
-                    <p>{{ this.theme.card_text_3 }}</p>
+                    <p>{% content 'home-sobrenos/card-3.htm' %}</p>
                 </div>
             </div>
             <div class=\"col-6 col-md-3\" data-aos=\"fade-zoom-in\" data-aos-delay=\"350\" >
                 <div class=\"about__item\">
                     <i class=\"{{ this.theme.card_icon_4 }}\"></i>
-                    <p>{{ this.theme.card_text_4 }}</p>
+                    <p>{% content 'home-sobrenos/card-4.htm' %}</p>
                 </div>
             </div>
         </div>

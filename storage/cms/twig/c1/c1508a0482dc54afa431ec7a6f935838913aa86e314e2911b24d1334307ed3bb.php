@@ -49,25 +49,66 @@ class __TwigTemplate_d078858d8098214d799727d08ce25e00a43d4281593bcd0c0c9caa127e1
         // line 6
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 6), "website_author", [], "any", false, false, false, 6), "html", null, true);
         echo "\">
-<title>";
+<!--<title>";
         // line 7
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 7), "website_name", [], "any", false, false, false, 7), "html", null, true);
         echo " - ";
         echo twig_escape_filter($this->env, ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, true, false, 7), "meta_title", [], "any", true, true, false, 7)) ? (_twig_default_filter(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, true, false, 7), "meta_title", [], "any", false, false, false, 7), twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 7), "title", [], "any", false, false, false, 7))) : (twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 7), "title", [], "any", false, false, false, 7))), "html", null, true);
-        echo "</title>
+        echo "</title>-->
+<title>Instituto de Oncologia de Mogi das Cruzes</title>
 <link rel=\"canonical\" href=\"";
-        // line 8
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 8), "website_url", [], "any", false, false, false, 8), "html", null, true);
+        // line 9
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 9), "website_url", [], "any", false, false, false, 9), "html", null, true);
         echo "\" />
 <!--<link rel=\"icon\" type=\"image/png\" href=\"";
-        // line 9
+        // line 10
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/dist/images/icon.png");
         echo "\" />-->
 <link href=\"https://fonts.googleapis.com/css?family=Open+Sans\" rel=\"stylesheet\">
 <link href=\"";
-        // line 11
+        // line 12
         echo $this->extensions['Cms\Twig\Extension']->themeFilter([0 => "assets/dist/css/style.css", 1 => "assets/src/scss/custom.scss"]);
-        echo "\" rel=\"stylesheet\">";
+        echo "\" rel=\"stylesheet\">
+<style>
+\t/* equal card height */
+.row-equal > div[class*='col-'] {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.row-equal .card {
+   width: 100%;
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner>.row-equal.active, 
+.carousel-inner>.row-equal.next, 
+.carousel-inner>.row-equal.prev {
+    display: flex;
+}
+
+/* prevent flicker during transition */
+.carousel-inner>.row-equal.active.left, 
+.carousel-inner>.row-equal.active.right {
+    opacity: 0.5;
+    display: flex;
+}
+
+
+/* control image height */
+.card-img-top-250 {
+    max-height: 250px;
+    overflow:hidden;
+}
+@media (min-width: 768px) {
+.carousel-multi-item-2 .col-md-3 {
+float: left;
+width: 25%;
+max-width: 100%; } }
+
+.carousel-multi-item-2 .card img {
+border-radius: 2px; }
+</style>";
     }
 
     public function getTemplateName()
@@ -82,7 +123,7 @@ class __TwigTemplate_d078858d8098214d799727d08ce25e00a43d4281593bcd0c0c9caa127e1
 
     public function getDebugInfo()
     {
-        return array (  69 => 11,  64 => 9,  60 => 8,  54 => 7,  50 => 6,  46 => 5,  42 => 4,  37 => 1,);
+        return array (  70 => 12,  65 => 10,  61 => 9,  54 => 7,  50 => 6,  46 => 5,  42 => 4,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -93,10 +134,51 @@ class __TwigTemplate_d078858d8098214d799727d08ce25e00a43d4281593bcd0c0c9caa127e1
 <meta name=\"description\" content=\"{{ this.page.meta_description|default(this.theme.description) }}\">
 <meta name=\"keywords\" content=\"{{ this.theme.keywords }}\">
 <meta name=\"author\" content=\"{{ this.theme.website_author }}\">
-<title>{{ this.theme.website_name }} - {{ this.page.meta_title|default(this.page.title) }}</title>
+<!--<title>{{ this.theme.website_name }} - {{ this.page.meta_title|default(this.page.title) }}</title>-->
+<title>Instituto de Oncologia de Mogi das Cruzes</title>
 <link rel=\"canonical\" href=\"{{ this.theme.website_url }}\" />
 <!--<link rel=\"icon\" type=\"image/png\" href=\"{{ 'assets/dist/images/icon.png'|theme }}\" />-->
 <link href=\"https://fonts.googleapis.com/css?family=Open+Sans\" rel=\"stylesheet\">
-<link href=\"{{ ['assets/dist/css/style.css','assets/src/scss/custom.scss']|theme }}\" rel=\"stylesheet\">", "/var/www/html/october/install-master/themes/thebakerdev-waard/partials/meta.htm", "");
+<link href=\"{{ ['assets/dist/css/style.css','assets/src/scss/custom.scss']|theme }}\" rel=\"stylesheet\">
+<style>
+\t/* equal card height */
+.row-equal > div[class*='col-'] {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.row-equal .card {
+   width: 100%;
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner>.row-equal.active, 
+.carousel-inner>.row-equal.next, 
+.carousel-inner>.row-equal.prev {
+    display: flex;
+}
+
+/* prevent flicker during transition */
+.carousel-inner>.row-equal.active.left, 
+.carousel-inner>.row-equal.active.right {
+    opacity: 0.5;
+    display: flex;
+}
+
+
+/* control image height */
+.card-img-top-250 {
+    max-height: 250px;
+    overflow:hidden;
+}
+@media (min-width: 768px) {
+.carousel-multi-item-2 .col-md-3 {
+float: left;
+width: 25%;
+max-width: 100%; } }
+
+.carousel-multi-item-2 .card img {
+border-radius: 2px; }
+</style>", "/var/www/html/october/install-master/themes/thebakerdev-waard/partials/meta.htm", "");
     }
 }
