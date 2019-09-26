@@ -1,4 +1,4 @@
-1569277524a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:1032:"description = "Default layout"
+1569525286a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:900:"description = "Default layout"
 ==
 <!doctype html>
 <html lang="en">
@@ -16,17 +16,12 @@
                 {% partial 'services' %}
             {% endif %}
                 {% partial 'campanhas' %}
-           <!-- {% if(this.theme.section_team) %}
+           {% if(this.theme.section_team) %}
                 {% partial 'team' %}
-            {% endif %}-->
-
+            {% endif %}
             <!--{% if(this.theme.section_facility) %}
                 {% partial 'facility' %}
             {% endif %}-->
-
-            <!--{% if(this.theme.section_services) %}
-                {% partial 'services' %}-->
-            {% endif %}
             
         </main>
         {% partial 'footer' %}
@@ -35,7 +30,7 @@
 
     {% partial 'scripts' %}
 </body>
-</html>";s:5:"mtime";i:1569270723;s:6:"markup";s:998:"<!doctype html>
+</html>";s:5:"mtime";i:1569523946;s:6:"markup";s:866:"<!doctype html>
 <html lang="en">
   <head>
     {% partial 'meta' %}
@@ -51,17 +46,12 @@
                 {% partial 'services' %}
             {% endif %}
                 {% partial 'campanhas' %}
-           <!-- {% if(this.theme.section_team) %}
+           {% if(this.theme.section_team) %}
                 {% partial 'team' %}
-            {% endif %}-->
-
+            {% endif %}
             <!--{% if(this.theme.section_facility) %}
                 {% partial 'facility' %}
             {% endif %}-->
-
-            <!--{% if(this.theme.section_services) %}
-                {% partial 'services' %}-->
-            {% endif %}
             
         </main>
         {% partial 'footer' %}

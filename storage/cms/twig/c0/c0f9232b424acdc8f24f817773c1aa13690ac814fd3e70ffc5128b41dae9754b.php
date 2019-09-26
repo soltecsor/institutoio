@@ -34,14 +34,11 @@ class __TwigTemplate_556952ab2a2acc7ef19587e911c71fa4954657b3d4aa7ce9680277b0788
     {
         $macros = $this->macros;
         // line 1
-        echo "<section id=\"team\" class=\"section team\">
+        echo "<section id=\"doencaseprevencao\" class=\"section team\">
     <div class=\"container\">
         <div class=\"row\">
             <div class=\"col\">
-                <h2 class=\"section__title section__title--underlined text-center\" data-aos=\"fade\" >";
-        // line 5
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 5), "team_heading", [], "any", false, false, false, 5), "html", null, true);
-        echo "</h2>
+                <h2 class=\"section__title section__title--underlined text-center\" data-aos=\"fade\" >Doenças e Prevenção</h2>
             </div>
         </div>
         <div class=\"row\">
@@ -148,16 +145,16 @@ class __TwigTemplate_556952ab2a2acc7ef19587e911c71fa4954657b3d4aa7ce9680277b0788
 
     public function getDebugInfo()
     {
-        return array (  125 => 69,  115 => 62,  105 => 55,  72 => 25,  63 => 19,  52 => 11,  43 => 5,  37 => 1,);
+        return array (  122 => 69,  112 => 62,  102 => 55,  69 => 25,  60 => 19,  49 => 11,  37 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("<section id=\"team\" class=\"section team\">
+        return new Source("<section id=\"doencaseprevencao\" class=\"section team\">
     <div class=\"container\">
         <div class=\"row\">
             <div class=\"col\">
-                <h2 class=\"section__title section__title--underlined text-center\" data-aos=\"fade\" >{{ this.theme.team_heading }}</h2>
+                <h2 class=\"section__title section__title--underlined text-center\" data-aos=\"fade\" >Doenças e Prevenção</h2>
             </div>
         </div>
         <div class=\"row\">
