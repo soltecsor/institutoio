@@ -35,6 +35,62 @@ class __TwigTemplate_22bd0cfb86bb78a9b9a9599be357bc69898757bbd57d1c70ab1b040f1d5
         $macros = $this->macros;
         // line 1
         echo "<section id=\"eventosCampanhas\"/>
+<div class=\"post-list\">
+    ";
+        // line 3
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable(($context["filteredPosts"] ?? null));
+        $context['_iterated'] = false;
+        foreach ($context['_seq'] as $context["_key"] => $context["post"]) {
+            // line 4
+            echo "        <h3><a href=\"";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["post"], "url", [], "any", false, false, false, 4), "html", null, true);
+            echo "\">";
+            echo twig_get_attribute($this->env, $this->source, $context["post"], "title", [], "any", false, false, false, 4);
+            echo "</a></h3>
+        <p class=\"excerpt\">";
+            // line 5
+            echo twig_get_attribute($this->env, $this->source, $context["post"], "summary", [], "any", false, false, false, 5);
+            echo "</p>
+        <div class=\"custom-posts\">
+    ";
+            // line 7
+            if (twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["post"], "featured_images", [], "any", false, false, false, 7), "count", [], "any", false, false, false, 7)) {
+                // line 8
+                echo "    <div class=\"posts-image\">
+        ";
+                // line 9
+                $context['_parent'] = $context;
+                $context['_seq'] = twig_ensure_traversable(twig_get_attribute($this->env, $this->source, $context["post"], "featured_images", [], "any", false, false, false, 9));
+                foreach ($context['_seq'] as $context["_key"] => $context["image"]) {
+                    // line 10
+                    echo "        <a href=\"";
+                    echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["post"], "url", [], "any", false, false, false, 10), "html", null, true);
+                    echo "\"><img data-src=\"";
+                    echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["image"], "filename", [], "any", false, false, false, 10), "html", null, true);
+                    echo "\" src=\"";
+                    echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["image"], "path", [], "any", false, false, false, 10), "html", null, true);
+                    echo "\" alt=\"";
+                    echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["image"], "description", [], "any", false, false, false, 10), "html", null, true);
+                    echo "\"></a>
+        ";
+                }
+                $_parent = $context['_parent'];
+                unset($context['_seq'], $context['_iterated'], $context['_key'], $context['image'], $context['_parent'], $context['loop']);
+                $context = array_intersect_key($context, $_parent) + $_parent;
+                // line 12
+                echo "    </div>
+    ";
+            }
+            $context['_iterated'] = true;
+        }
+        if (!$context['_iterated']) {
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['post'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 16
+        echo "</div>
 \t<h2 class=\"section__title section__title--underlined text-center aos-init aos-animate\" data-aos=\"fade\">Eventos e Campanhas</h2>
 \t<div class=\"col-md-5 offset-md-4\">
 \t\t<p class=\"campanha__description\">Mauris sit amet orci ac diam rutrum blandit.Mauris sit amet orci ac diam rutrum blandit.</p>
@@ -198,14 +254,34 @@ class __TwigTemplate_22bd0cfb86bb78a9b9a9599be357bc69898757bbd57d1c70ab1b040f1d5
         return "/var/www/html/october/install-master/themes/thebakerdev-waard/partials/campanhas.htm";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  37 => 1,);
+        return array (  93 => 16,  82 => 12,  67 => 10,  63 => 9,  60 => 8,  58 => 7,  53 => 5,  46 => 4,  41 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("<section id=\"eventosCampanhas\"/>
+<div class=\"post-list\">
+    {% for post in filteredPosts %}
+        <h3><a href=\"{{ post.url }}\">{{ post.title|raw }}</a></h3>
+        <p class=\"excerpt\">{{ post.summary|raw }}</p>
+        <div class=\"custom-posts\">
+    {% if post.featured_images.count %}
+    <div class=\"posts-image\">
+        {% for image in post.featured_images %}
+        <a href=\"{{ post.url }}\"><img data-src=\"{{ image.filename }}\" src=\"{{ image.path }}\" alt=\"{{ image.description }}\"></a>
+        {% endfor %}
+    </div>
+    {% endif %}
+{% else %}
+{% endfor %}
+</div>
 \t<h2 class=\"section__title section__title--underlined text-center aos-init aos-animate\" data-aos=\"fade\">Eventos e Campanhas</h2>
 \t<div class=\"col-md-5 offset-md-4\">
 \t\t<p class=\"campanha__description\">Mauris sit amet orci ac diam rutrum blandit.Mauris sit amet orci ac diam rutrum blandit.</p>

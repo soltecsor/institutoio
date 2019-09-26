@@ -1,5 +1,12 @@
 <?php 
-class Cms5d8d017971e19844622434_2bce90c923bae80f1244e9d8d7e37a31Class extends Cms\Classes\PartialCode
+use RainLab\Blog\Models\Post as BlogPost;class Cms5d8d1ca09cf37115455618_ba98ec5c5c1a60d344c6e8800a45eab1Class extends Cms\Classes\PartialCode
 {
 
+public function onStart(){    
+
+       $this['filteredPosts'] = BlogPost::whereHas('categories', function($q) {
+            $q->whereIn('slug', ['campanha']);
+        })->get(); 
+
+}
 }

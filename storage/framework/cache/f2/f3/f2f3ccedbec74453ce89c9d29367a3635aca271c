@@ -1,6 +1,30 @@
-1569525219a:1:{s:13:"campanhas.htm";a:6:{s:8:"fileName";s:13:"campanhas.htm";s:7:"content";s:6399:"[viewBag]
+1569529592a:1:{s:13:"campanhas.htm";a:6:{s:8:"fileName";s:13:"campanhas.htm";s:7:"content";s:7175:"==
+use RainLab\Blog\Models\Post as BlogPost;
+
+function onStart(){    
+
+       $this['filteredPosts'] = BlogPost::whereHas('categories', function($q) {
+            $q->whereIn('slug', ['campanha']);
+        })->get(); 
+
+}
 ==
 <section id="eventosCampanhas"/>
+<div class="post-list">
+    {% for post in filteredPosts %}
+        <h3><a href="{{ post.url }}">{{ post.title|raw }}</a></h3>
+        <p class="excerpt">{{ post.summary|raw }}</p>
+        <div class="custom-posts">
+    {% if post.featured_images.count %}
+    <div class="posts-image">
+        {% for image in post.featured_images %}
+        <a href="{{ post.url }}"><img data-src="{{ image.filename }}" src="{{ image.path }}" alt="{{ image.description }}"></a>
+        {% endfor %}
+    </div>
+    {% endif %}
+{% else %}
+{% endfor %}
+</div>
 	<h2 class="section__title section__title--underlined text-center aos-init aos-animate" data-aos="fade">Eventos e Campanhas</h2>
 	<div class="col-md-5 offset-md-4">
 		<p class="campanha__description">Mauris sit amet orci ac diam rutrum blandit.Mauris sit amet orci ac diam rutrum blandit.</p>
@@ -156,7 +180,22 @@
 
 </div>
 </section>
-<!--/.Carousel Wrapper-->";s:5:"mtime";i:1569522002;s:6:"markup";s:6384:"<section id="eventosCampanhas"/>
+<!--/.Carousel Wrapper-->";s:5:"mtime";i:1569528988;s:6:"markup";s:6940:"<section id="eventosCampanhas"/>
+<div class="post-list">
+    {% for post in filteredPosts %}
+        <h3><a href="{{ post.url }}">{{ post.title|raw }}</a></h3>
+        <p class="excerpt">{{ post.summary|raw }}</p>
+        <div class="custom-posts">
+    {% if post.featured_images.count %}
+    <div class="posts-image">
+        {% for image in post.featured_images %}
+        <a href="{{ post.url }}"><img data-src="{{ image.filename }}" src="{{ image.path }}" alt="{{ image.description }}"></a>
+        {% endfor %}
+    </div>
+    {% endif %}
+{% else %}
+{% endfor %}
+</div>
 	<h2 class="section__title section__title--underlined text-center aos-init aos-animate" data-aos="fade">Eventos e Campanhas</h2>
 	<div class="col-md-5 offset-md-4">
 		<p class="campanha__description">Mauris sit amet orci ac diam rutrum blandit.Mauris sit amet orci ac diam rutrum blandit.</p>
@@ -312,4 +351,12 @@
 
 </div>
 </section>
-<!--/.Carousel Wrapper-->";s:4:"code";N;s:7:"viewBag";a:0:{}}}
+<!--/.Carousel Wrapper-->";s:4:"code";s:225:"use RainLab\Blog\Models\Post as BlogPost;
+
+function onStart(){    
+
+       $this['filteredPosts'] = BlogPost::whereHas('categories', function($q) {
+            $q->whereIn('slug', ['campanha']);
+        })->get(); 
+
+}";s:17:"_PARSER_ERROR_INI";s:0:"";}}

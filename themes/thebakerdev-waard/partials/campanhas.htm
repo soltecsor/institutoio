@@ -1,6 +1,30 @@
-[viewBag]
+==
+use RainLab\Blog\Models\Post as BlogPost;
+
+function onStart(){    
+
+       $this['filteredPosts'] = BlogPost::whereHas('categories', function($q) {
+            $q->whereIn('slug', ['campanha']);
+        })->get(); 
+
+}
 ==
 <section id="eventosCampanhas"/>
+<div class="post-list">
+    {% for post in filteredPosts %}
+        <h3><a href="{{ post.url }}">{{ post.title|raw }}</a></h3>
+        <p class="excerpt">{{ post.summary|raw }}</p>
+        <div class="custom-posts">
+    {% if post.featured_images.count %}
+    <div class="posts-image">
+        {% for image in post.featured_images %}
+        <a href="{{ post.url }}"><img data-src="{{ image.filename }}" src="{{ image.path }}" alt="{{ image.description }}"></a>
+        {% endfor %}
+    </div>
+    {% endif %}
+{% else %}
+{% endfor %}
+</div>
 	<h2 class="section__title section__title--underlined text-center aos-init aos-animate" data-aos="fade">Eventos e Campanhas</h2>
 	<div class="col-md-5 offset-md-4">
 		<p class="campanha__description">Mauris sit amet orci ac diam rutrum blandit.Mauris sit amet orci ac diam rutrum blandit.</p>
