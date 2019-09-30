@@ -1,4 +1,93 @@
+==
+use RainLab\Blog\Models\Post as BlogPost;
+
+function onStart(){    
+
+       $this['filteredPosts'] = BlogPost::whereHas('categories', function($q) {
+            $q->whereIn('slug', ['doenca-e-prevencao']);
+        })->get(); 
+
+}
+==
 <section id="doencaseprevencao" class="section team">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="section__title section__title--underlined text-center" data-aos="fade" >Doenças e Prevenção</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 order-2 order-md-1">
+                {% for post in filteredPosts %}
+                <div class="{{ loop.index == 1 ? 'team-profile team-toggle active' : 'team-profile team-toggle'}}" data-aos="fade-zoom-in"  data-toggle="member-{{ loop.index }}">
+                    {% if post.featured_images.count %}
+                        {% for image in post.featured_images %} 
+                    <img class="team-profile__image" data-src="{{ image.filename }}" src="{{ image.path }}" alt="{{ image.description }}">
+                        {% endfor %}
+                    {% endif %}
+                    <div class="team-profile__titles">
+                        <p>{{post.title | raw}}</p>
+                    </div>
+                </div>
+            {% endfor %}
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 order-3">
+                {% for post in filteredPosts %}
+                <div class="{{ loop.index == 1 ? 'team-info team team-toggle active' : 'team-info team team-toggle'}} data-aos="fade-zoom-in" data-aos-delay="150" data-toggle="member-{{ loop.index }}">
+                    <h4 class="team-info__name">{{post.title | raw}}</h4>
+                    <p>{{post.summary | raw}}</p>
+                    <p>{{post.summary | raw}}</p>
+                    <button class="button button--elevate button--secondary mt-4">Saber mais</button>
+                </div>
+                {% endfor %}
+                <!--<div class="team-info team team-toggle" data-toggle="member-2">
+                    <h4 class="team-info__name">Dr. Jenny Frou</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, deleniti.</p>
+                    <p>Eligendi veritatis maiores natus, incidunt reprehenderit exercitationem sunt delectus? Tempore, corporis ducimus!</p>
+                    <button class="button button--elevate button--secondary mt-4">Contact</button>
+                </div>
+                <div class="team-info team team-toggle" data-toggle="member-3">
+                    <h4 class="team-info__name">Andy Johnson</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur consequatur saepe aspernatur!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, voluptatibus?</p>
+                    <button class="button button--elevate button--secondary mt-4">Contact</button>
+                </div>-->
+            </div>
+            <div class="col-12 col-md-4 order-1 order-md-3 mb-5 mb-md-0">
+                <div class="team-member" data-aos="fade-zoom-in" data-aos-delay="250" >
+                    {% for post in filteredPosts %}
+                    <div class="team-member__item mb-3" data-target="member-{{loop.index}}">
+                        {% if post.featured_images.count %}
+                            {% for image in post.featured_images %} 
+                                <img class="team-member__image" data-src="{{ image.filename }}" src="{{ image.path }}" alt="{{ image.description }}">
+                            {% endfor %}
+                        {% endif %}    
+                        <div class="team-member__info">
+                            <span class="team-member__name">{{post.title | raw}}</span>
+                            <span class="team-member__title highlight__secondary--dark">{{post.summary | raw}}</span>
+                        </div>
+                    </div>
+                    {% endfor %}
+                    <!--<div class="team-member__item mb-3" data-target="member-2">
+                        <img src="{{ 'assets/dist/images/member_thumbnail_2.jpg'|theme }}" alt="image" class="team-member__image">
+                        <div class="team-member__info">
+                            <span class="team-member__name">Jenny Frou</span>
+                            <span class="team-member__title highlight__secondary--dark">Head Nurse</span>
+                        </div>
+                    </div>
+                    <div class="team-member__item" data-target="member-3">
+                        <img src="{{ 'assets/dist/images/member_thumbnail_3.jpg'|theme }}" alt="image" class="team-member__image">
+                        <div class="team-member__info">
+                            <span class="team-member__name">Dr. Andy Johnson</span>
+                            <span class="team-member__title highlight__secondary--dark">Internal Medicine</span>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--<section id="doencaseprevencao" class="section team">
     <div class="container">
         <div class="row">
             <div class="col">
@@ -76,4 +165,4 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
