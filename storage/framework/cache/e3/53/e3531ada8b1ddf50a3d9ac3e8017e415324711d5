@@ -1,4 +1,4 @@
-1569879248a:1:{s:9:"index.htm";a:15:{s:8:"fileName";s:9:"index.htm";s:7:"content";s:241:"title = "index"
+1570389158a:1:{s:9:"index.htm";a:15:{s:8:"fileName";s:9:"index.htm";s:7:"content";s:239:"title = "index"
 url = "/"
 layout = "default"
 meta_title = "One Page Bootstrap 4 Template"
@@ -9,4 +9,4 @@ canonical_url = "url"
 robot_index = "index"
 robot_follow = "follow"
 ==
-hi";s:5:"mtime";i:1569071393;s:6:"markup";s:2:"hi";s:4:"code";N;s:5:"title";s:5:"index";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:10:"meta_title";s:29:"One Page Bootstrap 4 Template";s:16:"meta_description";s:16:"Test Description";s:9:"is_hidden";s:1:"0";s:12:"seo_keywords";s:8:"Template";s:13:"canonical_url";s:3:"url";s:11:"robot_index";s:5:"index";s:12:"robot_follow";s:6:"follow";}}
+";s:5:"mtime";i:1570382436;s:6:"markup";s:0:"";s:4:"code";N;s:5:"title";s:5:"index";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:10:"meta_title";s:29:"One Page Bootstrap 4 Template";s:16:"meta_description";s:16:"Test Description";s:9:"is_hidden";s:1:"0";s:12:"seo_keywords";s:8:"Template";s:13:"canonical_url";s:3:"url";s:11:"robot_index";s:5:"index";s:12:"robot_follow";s:6:"follow";}}

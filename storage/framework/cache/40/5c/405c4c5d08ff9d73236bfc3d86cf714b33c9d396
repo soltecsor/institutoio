@@ -1,0 +1,39 @@
+1570389613a:1:{s:12:"internas.htm";a:6:{s:8:"fileName";s:12:"internas.htm";s:7:"content";s:427:"==
+<!doctype html>
+<html lang="en">
+  <head>
+    {% partial 'meta' %}
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div class="wrapper">
+        {% partial 'header-internas' %}
+        {% partial 'sidebar' %}
+        <main class="content">
+            {% page %}
+        </main>
+        {% partial 'footer' %}
+    </div>
+    {% partial 'modal' %}
+
+    {% partial 'scripts' %}
+</body>
+</html>
+";s:5:"mtime";i:1570384678;s:6:"markup";s:423:"<!doctype html>
+<html lang="en">
+  <head>
+    {% partial 'meta' %}
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div class="wrapper">
+        {% partial 'header-internas' %}
+        {% partial 'sidebar' %}
+        <main class="content">
+            {% page %}
+        </main>
+        {% partial 'footer' %}
+    </div>
+    {% partial 'modal' %}
+
+    {% partial 'scripts' %}
+</body>
+</html>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

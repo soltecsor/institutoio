@@ -33,8 +33,6 @@ class __TwigTemplate_8179320ed12b1f7c6288b91b8ef3e54e4ce56b3175aa9b8af7564535f6b
     protected function doDisplay(array $context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 1
-        echo "hi";
     }
 
     public function getTemplateName()
@@ -44,11 +42,11 @@ class __TwigTemplate_8179320ed12b1f7c6288b91b8ef3e54e4ce56b3175aa9b8af7564535f6b
 
     public function getDebugInfo()
     {
-        return array (  37 => 1,);
+        return array ();
     }
 
     public function getSourceContext()
     {
-        return new Source("hi", "/var/www/html/october/install-master/themes/thebakerdev-waard/pages/index.htm", "");
+        return new Source("", "/var/www/html/october/install-master/themes/thebakerdev-waard/pages/index.htm", "");
     }
 }

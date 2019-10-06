@@ -11284,4 +11284,116 @@ small {
     margin-top:60px;
   }
 
+@media all {
+  /* Sidebar */
+  #sidebar {
+      border-radius:6px;
+      min-width: 250px;
+      max-width: 250px;
+      background: #0f0c7d;
+      color: #ffffff !important;
+      transition: all 0.3s;
+      margin-left: 10px;
+      margin-bottom: 100px;
+  }
+
+  #sidebar.active {
+      margin-left: -250px;
+  }
+
+  #sidebar .sidebar-header {
+      padding: 20px;
+      background: #6d7fcc;
+  }
+
+  #sidebar ul.components {
+      padding: 20px 0;
+      border-bottom: 1px solid #0f0c7d;
+  }
+
+  #sidebar ul p {
+      color: #ffffff !important;
+      padding: 10px;
+  }
+
+  #sidebar ul li a {
+      padding: 10px;
+      font-size: 1.1em;
+      display: block;
+  }
+
+  #sidebar ul li a:hover {
+      color: #ffffff !important;
+      background: #1511A9;
+      text-decoration: none;
+  }
+
+  #sidebar ul li.active>a,
+  a[aria-expanded="true"] {
+      color: #ffffff !important;
+      background: #0F0C82;
+  }
+
+  a[data-toggle="collapse"] {
+      position: relative;
+  }
+
+  .dropdown-toggle::after {
+      display: block;
+      position: absolute;
+      top: 50%;
+      right: 20px;
+      transform: translateY(-50%);
+  }
+
+  ul ul a {
+      font-size: 0.9em !important;
+      padding-left: 30px !important;
+      background: #0F0C82;
+      color: #ffffff !important;
+  }
+  a {
+      color: #ffffff !important;
+  }
+  .sidebar-title{
+    font-weight: bold;
+    background: #fa8231;
+    margin-left:20%;
+    font-size:20px;
+    border-radius:4px;
+  }
+
+  #nossascausas{
+    position: absolute;
+    top: 190px;
+    left: 50px;
+    right: 0;
+    bottom: 0;
+  }
+  .pageHr{
+    background:#fa8231;
+    height: 1.5px;
+  }
+  .pageHd{
+    color:#fa8231;
+    text-transform: uppercase;
+  }
+  .spanBreadCrumbs{
+    margin: 20px;
+    font-size: 12px;
+    color: #0F0C82;
+    text-transform: lowercase;
+  }
+  .spanBreadCrumbs a {
+    color: #0F0C82 !important;
+  }  
+  .preSpanBreadCrumbs{
+    font-size: 14px;
+    margin-right: -20px;
+  }
+  .imagePage img {
+    width: 60%;
+    margin-top:20px;
+    display: inline;
+  }
 }

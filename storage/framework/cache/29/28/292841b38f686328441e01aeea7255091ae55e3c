@@ -1,0 +1,131 @@
+1570389158a:1:{s:19:"header-internas.htm";a:5:{s:8:"fileName";s:19:"header-internas.htm";s:7:"content";s:3133:"<header id="home" class="header">
+    <div class="header__info">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <p class="mb-0"></p>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <ul class="social-links">
+                        <li class="social-links__item social-links__item--first">(00) 0000 - 0000</li>
+                        <li class="social-links__item">
+                            <a href="{{ this.theme.facebook_link }}" target="_blank"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li class="social-links__item">
+                            <a href="{{ this.theme.twitter_link }}" target="_blank"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li class="social-links__item">
+                            <a href="{{ this.theme.instagram_link }}" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav id="navigation" class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"><span class="highlight__primary--dark">{{ this.theme.website_name }}</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{ '/'| app }}">Início<span class="sr-only">(current)</span></a>
+                </li>
+                {% if(this.theme.section_about) %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre nós</a>
+                    </li>
+                {% endif %}
+                {% if(this.theme.section_services) %}
+                    <li class="nav-item">
+                            <a class="nav-link" href="{{'/#services' | app}}">O que fazemos</a>
+                    </li>
+                {% endif %}
+                {% if(this.theme.section_facility) %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Eventos e Campanhas</a>
+                    </li>
+                {% endif %}
+                {% if(this.theme.section_services) %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Doenças e Prevenção</a>
+                    </li>
+                {% endif %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+      </nav>
+</header>
+
+";s:5:"mtime";i:1570384942;s:6:"markup";s:3131:"<header id="home" class="header">
+    <div class="header__info">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <p class="mb-0"></p>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <ul class="social-links">
+                        <li class="social-links__item social-links__item--first">(00) 0000 - 0000</li>
+                        <li class="social-links__item">
+                            <a href="{{ this.theme.facebook_link }}" target="_blank"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li class="social-links__item">
+                            <a href="{{ this.theme.twitter_link }}" target="_blank"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li class="social-links__item">
+                            <a href="{{ this.theme.instagram_link }}" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav id="navigation" class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"><span class="highlight__primary--dark">{{ this.theme.website_name }}</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{ '/'| app }}">Início<span class="sr-only">(current)</span></a>
+                </li>
+                {% if(this.theme.section_about) %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre nós</a>
+                    </li>
+                {% endif %}
+                {% if(this.theme.section_services) %}
+                    <li class="nav-item">
+                            <a class="nav-link" href="{{'/#services' | app}}">O que fazemos</a>
+                    </li>
+                {% endif %}
+                {% if(this.theme.section_facility) %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Eventos e Campanhas</a>
+                    </li>
+                {% endif %}
+                {% if(this.theme.section_services) %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Doenças e Prevenção</a>
+                    </li>
+                {% endif %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+      </nav>
+</header>";s:4:"code";N;}}

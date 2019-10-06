@@ -1,0 +1,37 @@
+title = "nossas causas"
+url = "/nossas-causas"
+layout = "internas"
+description = "Página com informações das seção Nossas Causas"
+is_hidden = 0
+==
+<section id="nossascausas" class="section nossascausas">
+    <div class="container">
+        <div class="row">
+        	<div class="col-md-7 mx-auto data-aos="fade" >
+        		<span class="preSpanBreadCrumbs">Você está em: </span><span class="spanBreadCrumbs"><a href="{{'/' | app}}">Home</a> / O que fazemos / {{ this.page.title }} </span>
+        		<h3 class="pageHd">{{ this.page.title }}</h3>
+        		<hr class="pageHr">
+				<div class="nossas-causas">
+					{% content 'oquefazemos/nossascausas.txt' %}
+					<!--<div class="imagePage img-responsive">
+						<img src="{{ 'assets/dist/oquefazemos/nossascausas/facility.jpg'|theme }}" />
+						<img src="{{ 'assets/dist/oquefazemos/nossascausas/member_2.jpg'|theme }}" />
+					</div>-->
+				</div>
+			</div>	
+		</div>
+
+		<div class="row">
+			<div class="col-md-6" style="margin-left:220px;margin-right: -190px">
+				<div class="imagePage img-responsive">
+					<img src="{{ 'assets/dist/oquefazemos/nossascausas/facility.jpg'|theme }}" />
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="imagePage img-responsive">
+					<img src="{{ 'assets/dist/oquefazemos/nossascausas/member_2.jpg'|theme }}" />
+				</div>
+			</div>
+		</div>
+	</div>
+</section>			

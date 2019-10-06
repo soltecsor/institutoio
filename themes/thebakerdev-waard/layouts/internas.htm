@@ -1,0 +1,20 @@
+==
+<!doctype html>
+<html lang="en">
+  <head>
+    {% partial 'meta' %}
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div class="wrapper">
+        {% partial 'header-internas' %}
+        {% partial 'sidebar' %}
+        <main class="content">
+            {% page %}
+        </main>
+        {% partial 'footer' %}
+    </div>
+    {% partial 'modal' %}
+
+    {% partial 'scripts' %}
+</body>
+</html>

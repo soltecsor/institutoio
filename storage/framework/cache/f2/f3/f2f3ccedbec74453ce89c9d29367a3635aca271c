@@ -1,4 +1,4 @@
-1569879512a:1:{s:13:"campanhas.htm";a:6:{s:8:"fileName";s:13:"campanhas.htm";s:7:"content";s:2499:"==
+1570389412a:1:{s:13:"campanhas.htm";a:6:{s:8:"fileName";s:13:"campanhas.htm";s:7:"content";s:2499:"==
 use RainLab\Blog\Models\Post as BlogPost;
 
 function onStart(){    

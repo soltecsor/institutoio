@@ -1,0 +1,139 @@
+1570389158a:1:{s:11:"sidebar.htm";a:5:{s:8:"fileName";s:11:"sidebar.htm";s:7:"content";s:2983:"<nav id="sidebar">
+            <ul class="list-unstyled components">
+                <p class="sidebar-title">O que fazemos</p>
+                <li class="active">
+                    <a href="#nossasCausasSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Nossas Causas</a>
+                    <ul class="collapse list-unstyled" id="nossasCausasSubmenu">
+                        <li>
+                            <a href="#">Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">Lorem Ipsum</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="active">
+                    <a href="#advocacySubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Advocacy</a>
+                    <ul class="collapse list-unstyled" id="advocacySubmenu">
+                        <li>
+                            <a href="#">Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">Lorem Ipsum</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Educação e Saúde</a>
+                </li>
+                <li>
+                    <a href="#educacaoSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Cultura e Saúde</a>
+                    <ul class="collapse list-unstyled" id="educacaoSubmenu">
+                        <li>
+                            <a href="#">Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">Lorem Ipsum</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="active">
+                    <a href="#pacienteSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Paciente</a>
+                    <ul class="collapse list-unstyled" id="pacienteSubmenu">
+                        <li>
+                            <a href="#">Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">Lorem Ipsum</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Pesquisas</a>
+                </li>
+                <li>
+                    <a href="#">Campanhas</a>
+                </li>
+            </ul>
+        </nav>";s:5:"mtime";i:1570385898;s:6:"markup";s:2983:"<nav id="sidebar">
+            <ul class="list-unstyled components">
+                <p class="sidebar-title">O que fazemos</p>
+                <li class="active">
+                    <a href="#nossasCausasSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Nossas Causas</a>
+                    <ul class="collapse list-unstyled" id="nossasCausasSubmenu">
+                        <li>
+                            <a href="#">Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">Lorem Ipsum</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="active">
+                    <a href="#advocacySubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Advocacy</a>
+                    <ul class="collapse list-unstyled" id="advocacySubmenu">
+                        <li>
+                            <a href="#">Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">Lorem Ipsum</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Educação e Saúde</a>
+                </li>
+                <li>
+                    <a href="#educacaoSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Cultura e Saúde</a>
+                    <ul class="collapse list-unstyled" id="educacaoSubmenu">
+                        <li>
+                            <a href="#">Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">Lorem Ipsum</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="active">
+                    <a href="#pacienteSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Paciente</a>
+                    <ul class="collapse list-unstyled" id="pacienteSubmenu">
+                        <li>
+                            <a href="#">Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">Lorem Ipsum</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Pesquisas</a>
+                </li>
+                <li>
+                    <a href="#">Campanhas</a>
+                </li>
+            </ul>
+        </nav>";s:4:"code";N;}}

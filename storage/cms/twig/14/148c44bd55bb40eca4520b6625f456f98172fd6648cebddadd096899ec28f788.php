@@ -59,7 +59,10 @@ class __TwigTemplate_639585d92c67ffd4afe2fe87a4e233eefd985464f12bf94eaf0fc4e9f0d
         unset($context['__cms_content_params']);
         echo "</li>
                         </ul>
-                        <button class=\"button button--elevate button--secondary mt-4\">Saber Mais</button>
+                        <button class=\"button button--elevate button--secondary mt-4\"><a href=\"";
+        // line 18
+        echo $this->extensions['System\Twig\Extension']->appFilter("/nossas-causas");
+        echo "\">Saber Mais</a></button>
                     </div>
                 </div>
             </div>
@@ -77,7 +80,10 @@ class __TwigTemplate_639585d92c67ffd4afe2fe87a4e233eefd985464f12bf94eaf0fc4e9f0d
         unset($context['__cms_content_params']);
         echo "</li>
                         </ul>
-                        <button class=\"button button--elevate button--secondary mt-4\">Saber Mais</button>
+                        <button class=\"button button--elevate button--secondary mt-4\"><a href=\"";
+        // line 31
+        echo RainLab\Pages\Classes\Page::url("nossas-causas");
+        echo "\">Saber Mais</a></button>
                     </div>
                 </div>
             </div>
@@ -176,7 +182,7 @@ class __TwigTemplate_639585d92c67ffd4afe2fe87a4e233eefd985464f12bf94eaf0fc4e9f0d
 
     public function getDebugInfo()
     {
-        return array (  153 => 87,  135 => 74,  117 => 61,  93 => 42,  75 => 29,  57 => 16,  43 => 5,  37 => 1,);
+        return array (  159 => 87,  141 => 74,  123 => 61,  99 => 42,  85 => 31,  78 => 29,  64 => 18,  57 => 16,  43 => 5,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -198,7 +204,7 @@ class __TwigTemplate_639585d92c67ffd4afe2fe87a4e233eefd985464f12bf94eaf0fc4e9f0d
                         <ul class=\"service-list\">
                             <li class=\"service-list__item\">{% content 'home-oquefazemos/nossascausas.txt' %}</li>
                         </ul>
-                        <button class=\"button button--elevate button--secondary mt-4\">Saber Mais</button>
+                        <button class=\"button button--elevate button--secondary mt-4\"><a href=\"{{ '/nossas-causas'| app }}\">Saber Mais</a></button>
                     </div>
                 </div>
             </div>
@@ -211,7 +217,7 @@ class __TwigTemplate_639585d92c67ffd4afe2fe87a4e233eefd985464f12bf94eaf0fc4e9f0d
                         <ul class=\"service-list\">
                             <li class=\"service-list__item\">{% content 'home-oquefazemos/advocacy.txt' %}</li>
                         </ul>
-                        <button class=\"button button--elevate button--secondary mt-4\">Saber Mais</button>
+                        <button class=\"button button--elevate button--secondary mt-4\"><a href=\"{{ 'nossas-causas'|staticPage }}\">Saber Mais</a></button>
                     </div>
                 </div>
             </div>
